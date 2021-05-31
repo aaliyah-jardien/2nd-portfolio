@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--NAVIGATION BAR-->
+    <nav class="navbar">
+      <ul class="navbar-links">
+        <li class="navbar-link">
+          <a href="about.html" class="navbar-anchor">About</a>
+        </li>
+        <li class="navbar-link">
+          <a href="experience.html" class="navbar-anchor">Experience</a>
+        </li>
+        <li class="navbar-link">
+          <a href="portfolio.html" class="navbar-anchor">Portfolio</a>
+        </li>
+        <li class="navbar-link">
+          <a href="testimonials.html" class="navbar-anchor">Testimonials</a>
+        </li>
+        <li class="navbar-link">
+          <a href="contact.html" class="navbar-anchor">Contact</a>
+        </li>
+      </ul>
+      <button class="navbar-button" onclick="toggleNavbar()">+</button>
+    </nav>
+
+    <div class="landing">
+      <h1>Aaliyah Jardien</h1>
+    </div>
+
+    <script>
+      function toggleNavbar() {
+        document
+          .getElementsByClassName("navbar-links")[0]
+          .classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
