@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    /* background-color: rgb(109, 1, 128); */
+    /* scroll-behavior: smooth; */
+    overflow: hidden;
+  }
+  
+  body {
+    background-size: cover;
+    /* background-repeat: none; */
+    /* justify-content: center; */
+    height: 100vh;
+    /* width: 100%; */
+    /* text-align: center; */
+    overflow-x: hidden;
+    /* height: 100vh; */
+    /* width: 100%; */
+    color: #ffffff;
+    /* text-align: center; */
+    /* line-height: 20px; */
+  }
+  
+  /*NAVIGATION*/
+  .navbar-anchor {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    background: rgb(168, 102, 255);
+    position: fixed;
+    top: -100%;
+    /* left: -100%; */
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 25px;
+    transition: all 0.3s linear;
+  }
+  
+  .navbar-links.active {
+    top: 0;
+    left: 0;
+  }
+  
+  .navbar-button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    font-size: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 20px;
+  }
+  
+  /*HOME PAGE*/
+  #landing {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 20%;
+    background-image: url(/bg1.jpg);
+    background-size: cover;
+  }
+  
+  .home-page {
+    /* display: column;
+    background: rgba(0, 142, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(38, 255, 0, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 60%;
+    height: 40%;
+    justify-content: center; */
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  .headline {
+    display: flex;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* flex-direction: center; */
+    font-size: 35px;
+    /* padding: 10px 5%; */
+    /* gap: 20px; */
+  }
+  
+  .social-icons {
+    display: column;
+  }

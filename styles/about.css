@@ -1,0 +1,10 @@
+/*ABOUT SECTION*/
+#about {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    background-image: url(./bg2.jpg);
+    background-size: cover;
+  }

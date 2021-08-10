@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Required meta tags-->
+    <meta charset="UTF-8" />
+    <!--Description-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title-->
+    <title>My Portfolio</title>
+    <!--My CSS-->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fontawesome.com/icons?d=gallery&p=2" />
+    <link />
+    <!--Font awesome link-->
+    <script
+      src="https://kit.fontawesome.com/37b42f3594.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Owl Carousel-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <!--CSS Color scheme-->
+  </head>
+  <body id="landing">
+    <!--NAVIGATION BAR-->
+    <section>
+      <nav class="navbar">
+        <ul class="navbar-links">
+          <li class="navbar-link">
+            <a href="about.html" class="navbar-anchor">About</a>
+          </li>
+          <li class="navbar-link">
+            <a href="experience.html" class="navbar-anchor">Experience</a>
+          </li>
+          <li class="navbar-link">
+            <a href="portfolio.html" class="navbar-anchor">Portfolio</a>
+          </li>
+          <li class="navbar-link">
+            <a href="testimonials.html" class="navbar-anchor">Testimonials</a>
+          </li>
+          <li class="navbar-link">
+            <a href="contact.html" class="navbar-anchor">Contact</a>
+          </li>
+        </ul>
+        <button class="navbar-button" onclick="toggleNavbar()">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+      <div class="home-page">
+        <h1 class="heading">Aaliyah Jardien</h1>
+        <h2 class="headline">Aspiring Web developer</h2>
+        <!--Social media icons-->
+        <div class="social-icons">
+          <ul class="list-unstyled social-icons">
+            <li>
+              <a href="https://www.linkedin.com/in/aaliyah-jardien-8a1547211/">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/aaliyah-jardien">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function toggleNavbar() {
+        document
+          .getElementsByClassName("navbar-links")[0]
+          .classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
