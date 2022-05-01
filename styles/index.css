@@ -34,7 +34,7 @@ body {
 
 .navbar-links {
   display: flex;
-  list-style-type: none;
+  /* list-style-type: none; */
   flex-direction: column;
   background: rgb(168, 102, 255);
   position: fixed;
